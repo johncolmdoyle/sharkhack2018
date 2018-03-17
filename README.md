@@ -3,7 +3,7 @@
 A workshop for Simmons College's SharkHack participants to get them up and running 
 with a 'Hello World' Alexa skill! 
 ## Workshop Overview
-TODO: Add in architecture diagram
+![Architecture](images/SharkHack%202018%20Alexa%20Workshop%20-%20Architecture.png)
 
 ## Prerequisites
 + [AWS Account](https://aws.amazon.com/)
