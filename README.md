@@ -9,6 +9,7 @@ with a 'Hello World' Alexa skill!
 + [AWS Account](https://aws.amazon.com/)
 + [AWS Developer Account](https://developer.amazon.com/)
 + [NodeJS](https://nodejs.org/en/download/) with [NPM](https://docs.npmjs.com/getting-started/installing-node)
++ Amazon Alexa Mobile App on [Android](https://play.google.com/store/apps/details?id=com.amazon.dee.app) or [iOS](https://itunes.apple.com/us/app/amazon-alexa/id944011620?mt=8)
 
 ## Getting Started
 1. Clone this repo locally
