@@ -73,3 +73,5 @@ With serverless, we can achieve this with the following command:
 serverless deploy
 ```
 
+## To The Mic
+1. Head to [03_alexa_skill](03_alexa_skill) to continue!

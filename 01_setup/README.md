@@ -50,3 +50,6 @@ You want to setup the AWS CLI so that it runs as your IAM user! To do this, run:
 ```angularjs
 aws configure
 ```
+
+## Keyboards At The Ready...
+1. Head to [02_code](02_code) to continue!
