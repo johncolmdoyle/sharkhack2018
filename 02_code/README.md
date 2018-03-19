@@ -74,4 +74,4 @@ serverless deploy
 ```
 
 ## To The Mic
-1. Head to [03_alexa_skill](03_alexa_skill) to continue!
+1. Head to [03_alexa_skill](../03_alexa_skill) to continue!

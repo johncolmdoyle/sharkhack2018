@@ -52,4 +52,4 @@ aws configure
 ```
 
 ## Keyboards At The Ready...
-1. Head to [02_code](02_code) to continue!
+1. Head to [02_code](../02_code) to continue!
