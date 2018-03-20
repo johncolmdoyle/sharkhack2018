@@ -49,7 +49,7 @@ Open up handler.js and copy the contents of [this file](handler.js) into it. Thi
 Create a new file, event-hello.json. This will be our testing file. We want to be able to test locally before deploying our
 changes to save time and headaches when the whole team is trying to make changes!
 
-Copy the contents of [this file]() into event-hello.json.
+Copy the contents of [this file](event-hello.json) into event-hello.json.
 
 To test our lambda locally, we need one more install! Install lambda-local with the following command:
 ```
