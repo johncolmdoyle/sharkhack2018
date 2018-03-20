@@ -12,8 +12,5 @@ module.exports.hello = (event, context, callback) => {
 var handlers = {
   'Hello': function() {
     this.emit(':tell', 'Hello SharkHack 2018!');
-  },
-  'Goodbye': function() {
-    this.emit(':tell', 'Goodbye SharkHack!');
   }
 };
