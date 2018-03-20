@@ -1,0 +1,14 @@
+{
+  "name": "sharkhack-2018-alexa-workshop",
+  "version": "1.0.0",
+  "description": "Code, Test, and Deploy a Hello World Alexa skill!",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Doyle",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25"
+  }
+}

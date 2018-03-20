@@ -7,33 +7,33 @@ Time to allow Alexa to call our function!
 Login to the Alexa [Skill Console](https://developer.amazon.com/alexa/console/ask) and click 'Create Skill':
 ![Alexa Developer Landing Page](../images/Alexa%20Console%20-%2001%20-%20Landing.png)
 
-Give our skill the name 'Shark Hack 2018':
+Give our skill the name 'Shark Hack 2018' and click 'Next':
 ![Alexa Developer New Skill](../images/Alexa%20Console%20-%2002%20-%20New%20Skill.png)
 
-We have several types of Alexa skills, but with the Echo Dot we want to click the 'Custom Skill':
+We have several types of Alexa skills, but with the Echo Dot we want to select the 'Custom' skill and click 'Create Skill':
 ![Alexa Developer Custom Skill](../images/Alexa%20Console%20-%2003%20-%20Custom%20Skill.png)
 
-From the Skill Dashboard, we want to click Invocation on the right!
+From the Skill Dashboard, we want to click 'Invocation Name' on the right!
 ![Alexa Developer Skill Dashboard](../images/Alexa%20Console%20-%2004%20-%20Skill%20Dashboard.png)
 
 This is what we will actually say to Alexa, so lets put it down as 'shark hack' and then click 'Save Model':
 ![Alexa Developer Invocation](../images/Alexa%20Console%20-%2005%20-%20Invocation.png)
 
-Click Intents. There are a lot of Amazon provided intents, but from our Lambda remeber we created the intent 'Hello'. Click Add Intent:
+Click 'Intents (3)' on the left menu. There are a lot of Amazon provided intents, but from our Lambda remember we created the intent 'Hello'. Click 'Add Intent':
 ![Alexa Developer Intent List](../images/Alexa%20Console%20-%2006%20-%20Intent%20List.png)
 
 Set the intent name to 'Hello' and click 'Create custom intent':
 ![Alexa Developer Custom Intent](../images/Alexa%20Console%20-%2007%20-%20Custom%20Intent.png)
 
-For each intent that we set, we need to tell Alexa what the user would say to trigger it - let us kick off 'Hello' whenever the user says 'hello', 'hi', or 'hey'! Click Save Model and then click Build Model:
-![Alexa Developer Intent Utterences](../images/Alexa%20Console%20-%2008%20-%20Intent%20Utterences.png)
+For each intent that we set, we need to tell Alexa what the user would say to trigger it - let us kick off 'Hello' whenever the user says 'hello', 'hi', or 'hey'! Click 'Save Model' and then click 'Build Model':
+![Alexa Developer Intent Utterences](../images/Alexa%20Console%20-%2008%20-%20Intent%20Utterances.png)
 
 Before we go to the next step, we want to return to the command line quickly!
 
 Within the project folder, run the following command:
 ```
 serverless info --verbose
-``
+```
 
 If successful, we should get the following response:
 ![Alexa Developer Serverless Lambda ARN](../images/Alexa%20Console%20-%2009%20-%20Serverless%20Lambda%20ARN.png)

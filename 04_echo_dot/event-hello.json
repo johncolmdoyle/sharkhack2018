@@ -1,0 +1,20 @@
+{
+  "session": {
+    "sessionId": "SAMPLE ID",
+    "application": {
+      "applicationId": "APP ID"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "USER ID"
+    },
+    "new": true
+  },
+  "request": {
+    "type": "Hello",
+    "requestId": "REQUEST ID",
+    "locale": "en-GB",
+    "timestamp": "2018-03-19T14:52:48Z"
+  },
+  "version": "1.0"
+}
