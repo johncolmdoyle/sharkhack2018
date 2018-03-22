@@ -37,15 +37,15 @@ In the left hand menu click on 'Shared with you' and launch your teams Sharkatho
 
 ## Install Alexa dev packages
 1. Open a new terminal
-
 To do this go to the bottom pane and hit the green + button
+
 ![Setup Alexa Dev](../../images/Cloud9_Step5.png)
 
 2. Install dependencies through the new terminal
     * change to your application folder
 
         ```
-        cd {yourname}Sharathon2018
+        cd {yourname}Sharkathon2018
         ```
 
         For Example: cd dermSharkathon2018
@@ -63,17 +63,18 @@ To do this go to the bottom pane and hit the green + button
 
 ## Setup your Alexa Handler
 Update the index.js file with the sample code from index.js in 
-resources to your lambda function - {yourname}HelloAlexa
+resources to your lambda function
+* {yourname}HelloAlexa
 
     ```
     cp ../resources/index.js {yourname}HelloAlexa/index.js
     ```
-
     For example: cp ../resources/index.js dermHelloAlexa/index.js
 ![Setup Alexa Handler](../../images/Cloud9_Step7a.png)
 
 Note you can also do this by right-clicking on the index.js file in the
 resources folder and copying it to your function folder
+
 ![Setup Alexa Handler](../../images/Cloud9_Step7b.png)
 
 ## Locally test your Alexa Handler
