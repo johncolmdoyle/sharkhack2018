@@ -107,21 +107,27 @@ This is as simple as
 2. Add the Alexa Skill Trigger to your lambda
     * go to the lambda console
     click on services and search for lambda
+
     ![Deploy Alexa Lambda](../../images/Cloud9_Step9b.png)
 
     * select your function from the list of functions
+
     ![Deploy Alexa Lambda](../../images/Cloud9_Step9c.png)
 
     * find the alexa skills kit trigger
+
     ![Deploy Alexa Lambda](../../images/Cloud9_Step9d.png)
 
     * click this to add it to your function
+
     ![Deploy Alexa Lambda](../../images/Cloud9_Step9e.png)
 
     * scroll to the bottom of the screen and disable skill id verification
+
     ![Deploy Alexa Lambda](../../images/Cloud9_Step9f.png)
-    
+
     * finally save all your changes
+    
     ![Deploy Alexa Lambda](../../images/Cloud9Step9g.png)
 
 ## To The Mic
