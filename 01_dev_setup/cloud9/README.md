@@ -5,6 +5,10 @@ What we need to get going!
 ## Prerequisites
 + Amazon Alexa Mobile App on [Android](https://play.google.com/store/apps/details?id=com.amazon.dee.app) or [iOS](https://itunes.apple.com/us/app/amazon-alexa/id944011620?mt=8)
 
+## Resources
+The resources folder contains all the code used in cloud9... This will already be available in your cloud9
+environment but if it gets deleted or overwritten you can always copy it over again from here.
+
 # Team AWS Account
 As each team will have a single AWS Account, we want each team member to have an user on the account!
 
@@ -18,26 +22,26 @@ In the left hand menu click on 'Shared with you' and launch your teams Sharkatho
 1. On the welcome screen select create new Lambda
 ![Create a New Lambda](../../images/Cloud9_Step1.png)
 
-2: Give it a unique name
+2. Give it a unique name
         - FunctionName: {yourname}HelloAlexa
         - ApplicationName: {yourname}Sharkathon2018
 ![Create a New Lambda](../../images/Cloud9_Step2.png)
 
-3: Select empty Node project type
+3. Select empty Node project type
 ![Create a New Lambda](../../images/Cloud9_Step3.png)
 
-4: Continue selecting all the defaults
+4. Continue selecting all the defaults
 ![Create a New Lambda](../../images/Cloud9_Step4a.png)
 ![Create a New Lambda](../../images/Cloud9_Step4b.png)
 ![Create a New Lambda](../../images/Cloud9_Step4c.png)
 
 ## Install Alexa dev packages
-1: Open a new terminal
+1. Open a new terminal
 
 To do this go to the bottom pane and hit the green + button
 ![Setup Alexa Dev](../../images/Cloud9_Step5.png)
 
-2: Install dependencies through the new terminal
+2. Install dependencies through the new terminal
     * change to your application folder
 
         ```
@@ -73,19 +77,19 @@ resources folder and copying it to your function folder
 ![Setup Alexa Handler](../../images/Cloud9_Step7b.png)
 
 ## Locally test your Alexa Handler
-1: Double click your index.js file in your personal folder and make sure it's 
+1. Double click your index.js file in your personal folder and make sure it's 
 open in the editor.
 ![Test Alexa Handler](../../images/Cloud9_Step8a.png)
 
-2: Click the green Run button
+2. Click the green Run button
 ![Test Alexa Handler](../../images/Cloud9_Step8b.png)
 
-3: Delete everything in the payload section. Then open the hello.json file
+3. Delete everything in the payload section. Then open the hello.json file
 in resources and copy and paste all the text from there into the payload 
 section
 ![Test Alexa Handler](../../images/Cloud9_Step8c.png)
 
-4: Finally hit the Run button and you should see a successful
+4. Finally hit the Run button and you should see a successful
 test response that includes "Hello SharkHack 2018!"
 ![Test Alexa Handler](../../images/Cloud9_Step8d.png)
 
@@ -93,13 +97,13 @@ test response that includes "Hello SharkHack 2018!"
 With our function working as intended, now we can deploy our code so it's public!
 This is as simple as 
 
-1: Deploy the Lambda
+1. Deploy the Lambda
     * opening the AWS Resources panel
     * Right-clicking your hello Alexa lambda
     * hitting deploy
 ![Deploy Alexa Lambda](../../images/Cloud9_Step9.png)
 
-2: Add the Alexa Skill Trigger to your lambda
+2. Add the Alexa Skill Trigger to your lambda
     * go to the lambda console
     click on services and search for lambda
     ![Deploy Alexa Lambda](../../images/Cloud9_Step9b.png)
@@ -115,4 +119,4 @@ This is as simple as
     ![Deploy Alexa Lambda](../../images/Cloud9Step9g.png)
 
 ## To The Mic
-1: Head to [03_alexa_skill](../../03_alexa_skill) to continue!
+1. Head to [03_alexa_skill](../../03_alexa_skill) to continue!
