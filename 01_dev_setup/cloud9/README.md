@@ -102,6 +102,7 @@ This is as simple as
     * opening the AWS Resources panel
     * Right-clicking your hello Alexa lambda
     * hitting deploy
+    
 ![Deploy Alexa Lambda](../../images/Cloud9_Step9.png)
 
 2. Add the Alexa Skill Trigger to your lambda
@@ -127,7 +128,7 @@ This is as simple as
     ![Deploy Alexa Lambda](../../images/Cloud9_Step9f.png)
 
     * finally save all your changes
-    
+
     ![Deploy Alexa Lambda](../../images/Cloud9Step9g.png)
 
 ## To The Mic
