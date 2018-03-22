@@ -11,5 +11,5 @@ with a 'Hello World' Alexa skill!
 + Amazon Alexa Mobile App on [Android](https://play.google.com/store/apps/details?id=com.amazon.dee.app) or [iOS](https://itunes.apple.com/us/app/amazon-alexa/id944011620?mt=8)
 
 ## To Begin
-1. Head to [01_setup](01_setup) to continue!
+1. Head to [01_dev_setup](01_dev_setup) to continue!
 

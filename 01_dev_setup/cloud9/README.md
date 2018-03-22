@@ -1,0 +1,112 @@
+# Shark Hack 2018 - Alexa Skill Workshop
+![Setup](../images/SharkHack%202018%20Alexa%20Workshop%20Banner%20-%20Setup.png)
+What we need to get going!
+## Prerequisites
++ [AWS Account](https://aws.amazon.com/)
++ [AWS Developer Account](https://developer.amazon.com/)
++ Amazon Alexa Mobile App on [Android](https://play.google.com/store/apps/details?id=com.amazon.dee.app) or [iOS](https://itunes.apple.com/us/app/amazon-alexa/id944011620?mt=8)
+
+# Team AWS Account
+As each team will have a single AWS Account, we want each team member to have an user on the account!
+
+## Team Cloud9 Environment
+With your Team's AWS account, go to [Cloud9](https://console.aws.amazon.com/cloud9/home) in the AWS Console.
+
+In the left hand menu click on 'Shared with you' and launch your teams Sharkathon2018 environment:
+
+# Test Setup
+## Create a New Lambda
+1. On the welcome screen select create new Lambda
+(../images/Cloud9_Step1.png)
+
+2: Give it a unique name
+        - FunctionName: {yourname}HelloAlexa
+        - ApplicationName: {yourname}Sharkathon2018
+(../images/Cloud9_Step2.png)
+
+3: Select empty Node project type
+(../images/Cloud9_Step3.png)
+
+4: Continue selecting all the defaults
+(../images/Cloud9_Step4a.png)
+(../images/Cloud9_Step4b.png)
+(../images/Cloud9_Step4c.png)
+
+## Install Alexa dev packages
+1: Open a new terminal
+To do this go to the bottom pane and hit the green + button
+(../images/Cloud9_Step5.png)
+
+2: Install dependencies through the new terminal
+    a. change to your application folder
+        ```
+        cd {yourname}Sharathon2018
+        ```
+        For Example: cd dermSharkathon2018
+    b. Copy over the package.json file from resources
+        ```
+        cp ../resources/package.json package.json
+        ```
+    c. Install node dependencies (alexa sdk, aws sdk...)
+        ```
+        npm install
+        ```
+(../images/Cloud9_Step6.png)
+
+## Setup your Alexa Handler
+Update the index.js file with the sample code from index.js in 
+resources to your lambda function - {yourname}HelloAlexa
+    ```
+    cp ../resources/index.js {yourname}HelloAlexa/index.js
+    ```
+    For example: cp ../resources/index.js dermHelloAlexa/index.js
+(../images/Cloud9_Step7a.png)
+
+Note you can also do this by right-clicking on the index.js file in the
+resources folder and copying it to your function folder
+(../images/Cloud9_Step7b.png)
+
+## Locally test your Alexa Handler
+1: Double click your index.js file in your personal folder and make sure it's 
+open in the editor.
+(../images/Cloud9_Step8a.png)
+
+2: Click the green Run button
+(../images/Cloud9_Step8b.png)
+
+3: Delete everything in the payload section. Then open the hello.json file
+in resources and copy and paste all the text from there into the payload 
+section
+(../images/Cloud9_Step8c.png)
+
+4: Finally hit the Run button and you should see a successful
+test response that includes "Hello SharkHack 2018!"
+(../images/Cloud9_Step8d.png)
+
+## To The Cloud!!
+With our function working as intended, now we can deploy our code so it's public!
+This is as simple as 
+
+1: Deploy the Lambda
+    a. opening the AWS Resources panel
+    b. Right-clicking your hello Alexa lambda
+    c. hitting deploy
+(../images/Cloud9_Step9.png)
+
+2: Add the Alexa Skill Trigger to your lambda
+    a. go to the lambda console
+    click on services and search for lambda
+    (../images/Cloud9_Step9b.png)
+    b. select your function from the list of functions
+    (../images/Cloud9_Step9c.png)
+    c. find the alexa skills kit trigger
+    (../images/Cloud9_Step9d.png)
+    d. click this to add it to your function
+    (../images/Cloud9_Step9e.png)
+    e. scroll to the bottom of the screen and disable skill id verification
+    (../images/Cloud9_Step9f.png)
+    f. finally save all your changes
+    (../images/Cloud9_Step9g.png)
+
+## To The Mic
+1. Head to [03_alexa_skill](../03_alexa_skill) to continue!

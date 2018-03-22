@@ -1,0 +1,28 @@
+{
+    "name": "sharkathon2018",
+    "version": "1.0.0",
+    "description": "Alexa Skills lab for Sharkathon 2018",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/johncolmdoyle/sharkhack2018.git"
+    },
+    "keywords": [
+      "alexa",
+      "nodejs",
+      "sharkathon2018"
+    ],
+    "author": "Derm Duncan",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/johncolmdoyle/sharkhack2018/issues"
+    },
+    "homepage": "https://github.com/johncolmdoyle/sharkhack2018#readme",
+    "dependencies": {
+      "alexa-sdk": "^1.0.25"
+    }
+  }
+  
