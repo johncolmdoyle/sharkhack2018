@@ -12,8 +12,11 @@ environment but if it gets deleted or overwritten you can always copy it over ag
 ![Create a New Lambda](../images/Cloud9_Step1.png)
 
 2. Give it a unique name
-        - FunctionName: {yourname}HelloAlexa
-        - ApplicationName: {yourname}Sharkathon2018
+
+| Function Name | Application Name |
+| --- | --- |
+|{yourname}HelloAlexa | {yourname}Sharkathon2018 |
+
 ![Create a New Lambda](../images/Cloud9_Step2.png)
 
 3. Select empty Node project type
@@ -25,29 +28,28 @@ environment but if it gets deleted or overwritten you can always copy it over ag
 ![Create a New Lambda](../images/Cloud9_Step4c.png)
 
 ## Install Alexa dev packages
-1. Open a new terminal
+### 1. Open a new terminal
 To do this go to the bottom pane and hit the green + button
 
 ![Setup Alexa Dev](../images/Cloud9_Step5.png)
 
-2. Install dependencies through the new terminal
-    * change to your application folder
+### 2. Install dependencies through the new terminal
++ change to your application folder
+```
+cd {yourname}Sharkathon2018
+```
+For Example: cd dermSharkathon2018
 
-        ```
-        cd {yourname}Sharkathon2018
-        ```
++ Copy over the package.json file from resources
+```
+cp ../resources/package.json package.json
+```
 
-        For Example: cd dermSharkathon2018
-    * Copy over the package.json file from resources
++ Install node dependencies (alexa sdk, aws sdk...)
+```
+npm install
+```
 
-        ```
-        cp ../resources/package.json package.json
-        ```
-    * Install node dependencies (alexa sdk, aws sdk...)
-    
-        ```
-        npm install
-        ```
 ![Setup Alexa Dev](../images/Cloud9_Step6.png)
 
 ## Setup your Alexa Handler
@@ -55,10 +57,11 @@ Update the index.js file with the sample code from index.js in
 resources to your lambda function
 * {yourname}HelloAlexa
 
-    ```
-    cp ../resources/index.js {yourname}HelloAlexa/index.js
-    ```
-    For example: cp ../resources/index.js dermHelloAlexa/index.js
+```
+cp ../resources/index.js {yourname}HelloAlexa/index.js
+```
+For example: cp ../resources/index.js dermHelloAlexa/index.js
+
 ![Setup Alexa Handler](../images/Cloud9_Step7a.png)
 
 Note you can also do this by right-clicking on the index.js file in the

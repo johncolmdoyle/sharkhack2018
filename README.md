@@ -6,8 +6,6 @@ with a 'Hello World' Alexa skill!
 ![Architecture](images/SharkHack%202018%20Alexa%20Workshop%20-%20Architecture.png)
 
 ## Prerequisites
-+ [AWS Account](https://aws.amazon.com/)
-+ [AWS Developer Account](https://developer.amazon.com/)
 + Amazon Alexa Mobile App on [Android](https://play.google.com/store/apps/details?id=com.amazon.dee.app) or [iOS](https://itunes.apple.com/us/app/amazon-alexa/id944011620?mt=8)
 
 ## To Begin
