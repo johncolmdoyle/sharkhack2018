@@ -12,8 +12,10 @@ environment but if it gets deleted or overwritten you can always copy it over ag
 ![Create a New Lambda](../images/Cloud9_Step1.png)
 
 2. Give it a unique name
-        - FunctionName: {yourname}HelloAlexa
-        - ApplicationName: {yourname}Sharkathon2018
+| Function Name | Application Name |
+| --- | --- |
+|{yourname}HelloAlexa | {yourname}Sharkathon2018 |
+
 ![Create a New Lambda](../images/Cloud9_Step2.png)
 
 3. Select empty Node project type
