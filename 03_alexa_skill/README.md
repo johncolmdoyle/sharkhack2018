@@ -1,5 +1,5 @@
 # Shark Hack 2018 - Alexa Skill Workshop
-![Alexa Skill](../../images/SharkHack%202018%20Alexa%20Workshop%20Banner%20-%20Alexa%20Skill.png)
+![Alexa Skill](../images/SharkHack%202018%20Alexa%20Workshop%20Banner%20-%20Alexa%20Skill.png)
 Time to allow Alexa to call our function!
 
 ## Amazon Developer Console
@@ -33,15 +33,15 @@ Before we go to the next step, we want to return to the [AWS Console](https://co
 
 * launch the lambda console
 
-[AWS Lambda Console](../images/Cloud9_LambdaConsole.png)
+![AWS Lambda Console](../images/Cloud9_LambdaConsole.png)
 
 * select our function
 
-[AWS Lambda Console](../images/Cloud9_Function.png)
+![AWS Lambda Console](../images/Cloud9_Function.png)
 
 * and copy down the lambdas arn
 
-[AWS Lambda Console](../images/Cloud9_LambdaArn.png)
+![AWS Lambda Console](../images/Cloud9_LambdaArn.png)
 
 For example arn:aws:lambda:us-east-1:844612073202:function:cloud9-test-test-174GMM9L7OBRS
 

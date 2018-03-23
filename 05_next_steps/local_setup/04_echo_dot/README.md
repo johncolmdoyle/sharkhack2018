@@ -75,7 +75,7 @@ This shows all the skills available to download, but we want to get to our skill
 ![Alexa App Menu](../images/Alexa%20App%20-%2004%20-%20All%20Skills.png)
 
 This is all of the skills already installed, but we haven't released our new skill yet. Thankfully it should be available under the 'Dev Skill' section:
-![Alexa App Skill List](../images/Alexa%20App%20-%2005%20-%20My%2oSkills.png)
+![Alexa App Skill List](../images/Alexa%20App%20-%2005%20-%20My%20Skills.png)
 
 Excellent! We have our skill already on the phone! Click the skill to confirm it is enabled:
 ![Alexa App Dev Skill List](../images/Alexa%20App%20-%2006%20-%20Dev%20Skill%20List.png)
