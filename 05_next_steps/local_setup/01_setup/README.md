@@ -1,5 +1,5 @@
 # Shark Hack 2018 - Alexa Skill Workshop
-![Setup](../../images/SharkHack%202018%20Alexa%20Workshop%20Banner%20-%20Setup.png)
+![Setup](../../../images/SharkHack%202018%20Alexa%20Workshop%20Banner%20-%20Setup.png)
 What we need to get going!
 ## Prerequisites
 + [AWS Account](https://aws.amazon.com/)

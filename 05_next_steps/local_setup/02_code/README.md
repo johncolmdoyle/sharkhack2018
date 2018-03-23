@@ -1,5 +1,5 @@
 # Shark Hack 2018 - Alexa Skill Workshop
-![Code](../../images/SharkHack%202018%20Alexa%20Workshop%20Banner%20-%20Code.png)
+![Code](../../../images/SharkHack%202018%20Alexa%20Workshop%20Banner%20-%20Code.png)
 Here we will write up code our Hello World skill, test it locally, and deploy it to AWS Lambda!
 ## Setup for the Code
 
@@ -62,7 +62,7 @@ lambda-local -l handler -h hello -e event-hello.json
 ```
 
 If everything can gone successfully, we hopefully will see the following:
-![Successful Test](../../images/Lambda%20Local%20Successful%20Test.png)
+![Successful Test](../../../images/Lambda%20Local%20Successful%20Test.png)
 
 ## To The Cloud!!
 
