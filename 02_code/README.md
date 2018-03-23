@@ -12,6 +12,7 @@ environment but if it gets deleted or overwritten you can always copy it over ag
 ![Create a New Lambda](../images/Cloud9_Step1.png)
 
 2. Give it a unique name
+
 | Function Name | Application Name |
 | --- | --- |
 |{yourname}HelloAlexa | {yourname}Sharkathon2018 |
