@@ -1,5 +1,5 @@
 # Shark Hack 2018 - Alexa Skill Workshop
-![Alexa Skill](../images/SharkHack%202018%20Alexa%20Workshop%20Banner%20-%20Alexa%20Skill.png)
+![Alexa Skill](../../images/SharkHack%202018%20Alexa%20Workshop%20Banner%20-%20Alexa%20Skill.png)
 Time to allow Alexa to call our function!
 
 ## Amazon Developer Console
@@ -28,22 +28,24 @@ Set the intent name to 'Hello' and click 'Create custom intent':
 For each intent that we set, we need to tell Alexa what the user would say to trigger it - let us kick off 'Hello' whenever the user says 'hello', 'hi', or 'hey'! Click 'Save Model' and then click 'Build Model':
 ![Alexa Developer Intent Utterences](../images/Alexa%20Console%20-%2008%20-%20Intent%20Utterances.png)
 
-Before we go to the next step, we want to return to the command line quickly!
+## On the AWS Console
+Before we go to the next step, we want to return to the [AWS Console](https://console.aws.amazon.com/console/home?region=us-east-1) 
 
-Within the project folder, run the following command:
-```
-serverless info --verbose
-```
+* launch the lambda console
 
-If successful, we should get the following response:
-![Alexa Developer Serverless Lambda ARN](../images/Alexa%20Console%20-%2009%20-%20Serverless%20Lambda%20ARN.png)
+[AWS Lambda Console](../images/Cloud9_LambdaConsole.png)
 
-We want to copy the ARN from the following line:
-```
-HelloLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:844612073202:function:aws-nodejs-dev-hello:1
-```
+* select our function
 
-Drop the ':1' from it, this refers to the version - we want our skill to always hit the LATEST version.
+[AWS Lambda Console](../images/Cloud9_Function.png)
+
+* and copy down the lambdas arn
+
+[AWS Lambda Console](../images/Cloud9_LambdaArn.png)
+
+For example arn:aws:lambda:us-east-1:844612073202:function:cloud9-test-test-174GMM9L7OBRS
+
+## Alexa Developer Console
 
 Back to the Alexa Developer Console, and click Endpoint, and paste this ARN into the default region. Click build:
 ![Alexa Developer Endpoint](../images/Alexa%20Console%20-%2010%20-%20Endpoint.png)
