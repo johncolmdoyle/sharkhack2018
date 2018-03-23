@@ -98,7 +98,7 @@ This is as simple as
 ![Deploy Alexa Lambda](../images/Cloud9_Step9.png)
 
 2. Add the Alexa Skill Trigger to your lambda
-    * go to the lambda console
+    * go to the [lambda console](https://console.aws.amazon.com/lambda/home?region=us-east-1#/functions)
     click on services and search for lambda
 
     ![Deploy Alexa Lambda](../images/Cloud9_Step9b.png)
