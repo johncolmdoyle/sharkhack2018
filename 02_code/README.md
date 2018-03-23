@@ -27,12 +27,12 @@ environment but if it gets deleted or overwritten you can always copy it over ag
 ![Create a New Lambda](../images/Cloud9_Step4c.png)
 
 ## Install Alexa dev packages
-1. Open a new terminal
+### 1. Open a new terminal
 To do this go to the bottom pane and hit the green + button
 
 ![Setup Alexa Dev](../images/Cloud9_Step5.png)
 
-2. Install dependencies through the new terminal
+### 2. Install dependencies through the new terminal
     * change to your application folder
 
         ```
