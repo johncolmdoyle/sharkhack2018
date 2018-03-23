@@ -29,7 +29,7 @@ Click 'Intents (3)' on the left menu. There are a lot of Amazon provided intents
 ![Alexa Developer Intent List](../images/Alexa%20Console%20-%2006%20-%20Intent%20List.png)
 
 Set the intent name to 'Hello' and click 'Create custom intent':
-* Note this is case sensitive so make sure you spell it as __H__ello
+* Note this is case sensitive so make sure you spell it as **H**ello
 
 ![Alexa Developer Custom Intent](../images/Alexa%20Console%20-%2007%20-%20Custom%20Intent.png)
 
@@ -59,11 +59,13 @@ For example arn:aws:lambda:us-east-1:844612073202:function:cloud9-dermSharkathon
 
 ## Alexa Developer Console
 
-Back to the Alexa Developer Console, and click Endpoint, and paste this ARN into the default region. Click build:
+Back to the Alexa Developer Console, and click Endpoint, and paste this ARN into the default region. Click 'Save Endpoints':
+
 ![Alexa Developer Endpoint](../images/Alexa%20Console%20-%2010%20-%20Endpoint.png)
 
 # Test our Skill
 With this complete, click the Test in the menu, and enter: 'open shark hack hi' and expect to get our response from the lambda:
+
 ![Alexa Developer Test](../images/Alexa%20Console%20-%2011%20-%20Test.png)
 
 ## Onto the Device
