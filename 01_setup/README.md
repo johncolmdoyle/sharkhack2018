@@ -2,9 +2,6 @@
 ![Setup](../images/SharkHack%202018%20Alexa%20Workshop%20Banner%20-%20Setup.png)
 What we need to get going!
 
-## Resources
-The [resources](../resources) folder contains all the code used in cloud9... This will already be available in your cloud9 environment but if it gets deleted or overwritten you can always copy it over again from here.
-
 # AWS Account
 Each participant can get an AWS login [here](https://goo.gl/forms/BzgILD0XIBlkxR5K2) - the password will be provided in the workshop!
 

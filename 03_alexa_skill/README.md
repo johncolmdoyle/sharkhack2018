@@ -64,7 +64,7 @@ Back to the Alexa Developer Console, and click Endpoint, and paste this ARN into
 ![Alexa Developer Endpoint](../images/Alexa%20Console%20-%2010%20-%20Endpoint.png)
 
 # Test our Skill
-With this complete, click the Test in the menu, and enter: 'open shark hack hi' and expect to get our response from the lambda:
+With this complete, click the Test in the menu, and enter: 'ask {your name} shark hack hi' and expect to get our response from the lambda:
 
 ![Alexa Developer Test](../images/Alexa%20Console%20-%2011%20-%20Test.png)
 
