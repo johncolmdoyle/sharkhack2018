@@ -43,7 +43,7 @@ Before we go to the next step, we want to return to the [AWS Console](https://co
 
 ![AWS Lambda Console](../images/Cloud9_LambdaArn.png)
 
-For example arn:aws:lambda:us-east-1:844612073202:function:cloud9-test-test-174GMM9L7OBRS
+For example arn:aws:lambda:us-east-1:844612073202:function:cloud9-dermSharkathon2018-dermHelloAlexa-8CGC6E8LKJQX
 
 ## Alexa Developer Console
 
