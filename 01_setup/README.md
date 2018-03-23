@@ -6,8 +6,7 @@ What we need to get going!
 + Amazon Alexa Mobile App on [Android](https://play.google.com/store/apps/details?id=com.amazon.dee.app) or [iOS](https://itunes.apple.com/us/app/amazon-alexa/id944011620?mt=8)
 
 ## Resources
-The resources folder contains all the code used in cloud9... This will already be available in your cloud9
-environment but if it gets deleted or overwritten you can always copy it over again from here.
+The [resources](../resources) folder contains all the code used in cloud9... This will already be available in your cloud9 environment but if it gets deleted or overwritten you can always copy it over again from here.
 
 # Team AWS Account
 We have created an AWS account for each team and seeded users

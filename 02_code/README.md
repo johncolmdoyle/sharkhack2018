@@ -3,11 +3,10 @@
 Here we will write up code our Hello World skill, test it locally, and deploy it to AWS Lambda!
 
 ## Resources
-The resources folder contains all the code used in cloud9... This will already be available in your cloud9
+The [resources](../resources) folder contains all the code used in cloud9... This will already be available in your cloud9
 environment but if it gets deleted or overwritten you can always copy it over again from here.
 
 # Setup for the Code
-# Test Setup
 ## Create a New Lambda
 1. On the welcome screen select create new Lambda
 ![Create a New Lambda](../images/Cloud9_Step1.png)
