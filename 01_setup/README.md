@@ -9,7 +9,7 @@ Each participant can get an AWS login [here](https://goo.gl/forms/BzgILD0XIBlkxR
 There are 6 echo dots, one for each team! The login information for the Alexa Developer Console is taped to the bottom of the Echo Dot.
 
 ## Access AWS
-Log into the [AWS console](http://sharkhack.signin.aws.amazon.com/console?region=us-east-1).
+Log into the [AWS console](http://console.aws.amazon.com/console?region=us-east-1).
 
 ## Team Cloud9 Environment
 With your Team's AWS account, go to [Cloud9](https://us-east-1.console.aws.amazon.com/cloud9/home/shared) in the AWS Console.
